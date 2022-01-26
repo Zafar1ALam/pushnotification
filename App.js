@@ -10,7 +10,7 @@ const App = props => {
   const createChannel = () => {
     PushNotification.createChannel({
       channelId: "test-channel",
-      channelName: 'Test Channel'
+      channelName: 'Test  Channel'
     })
   }
 
